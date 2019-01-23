@@ -164,6 +164,20 @@ public class ABPUtility
 		return numberFormat.format(number);
 	}
 	
+	public static String numberFormat(double number)
+	{
+		NumberFormat numberFormat=NumberFormat.getNumberInstance();
+		
+		return numberFormat.format(number);
+	}
+	
+	public static String numberFormat(float number)
+	{
+		NumberFormat numberFormat=NumberFormat.getNumberInstance();
+		
+		return numberFormat.format(number);
+	}
+	
 	public static int dpToPx(Context context,int dp)
 	{
 		DisplayMetrics displayMetrics=context.getResources().getDisplayMetrics();
